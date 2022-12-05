@@ -8,8 +8,8 @@ namespace prac9
 {
     internal enum hihi
     {
-            delete = 1,
+            delete = -3,
             d = -2,
-            backspace = -2
+            backspace = -1
     }
 }

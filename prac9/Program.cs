@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        [Obsolete]
         static void Main(string[] args)
         {
             taskamanager.manager();
