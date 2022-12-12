@@ -82,8 +82,7 @@ namespace prac9
                 else if (arrows.key.Key == ConsoleKey.DownArrow)
                     arrows.godown();
                 Console.SetCursorPosition(0, taskamanager.pos);
-                /*                if ()*/
-                Console.WriteLine("->"); /* ЕСЛИ ОШИБКИ НЕТ ТО НУЖНО ЧТОТО ВЕРНУТЬ */
+                Console.WriteLine("->"); 
                 arrows.key = Console.ReadKey();
                 if (arrows.key.Key == ConsoleKey.D)
                     taskamanager.pos = (int)hihi.d;

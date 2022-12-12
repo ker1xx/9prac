@@ -66,6 +66,7 @@ namespace prac9
             {
                 pos4kill = pos;
                 vntyri.enter();
+                vntyri.stope = 0;
                 pos = 3;
             }
         }
